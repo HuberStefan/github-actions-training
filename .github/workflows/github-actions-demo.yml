@@ -11,6 +11,17 @@ on:
         - cron: '15 6 * * SUN'
     workflow_dispatch:
 
+jobs:
+  display-variables:
+    name: 'Build'
+    runs-on: 'ubuntu-latest'
+    steps:
+        - run: |
+            echo '${github.action}'
+            echo '${github.action_ref}'
+            echo tree
+                
+    
   
         
     
