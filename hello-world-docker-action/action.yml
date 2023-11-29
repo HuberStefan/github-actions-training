@@ -6,7 +6,7 @@ inputs:
     default: 'world'
 outputs:
   time:
-    descpriton: 'Current time'
+    description: 'Current time'
 runs:
   using: 'docker'
   image: 'Dockerfile'
