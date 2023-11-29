@@ -1,9 +1,9 @@
 name: Example Workflow
 inputs:
   who-to-greet:
-  description: 'Who to greet'
-  required: true
-  default: 'world'
+    description: 'Who to greet'
+    required: true
+    default: 'world'
 outputs:
   time:
     descpriton: 'Current time'
