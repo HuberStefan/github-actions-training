@@ -4,6 +4,8 @@ on:
     branches: main
     paths: 
       - ./hello-world-docker-action/**
+      - ./.github/worflows/hello-world-docker-ci.yml
+      
   workflow_dispatch:
 jobs:
   test-action:
